@@ -166,14 +166,14 @@ ul{
 }
 
 /* MAIN WEBSITE LOADER */
-.exertio-loader-container {
+.Buckapi-loader-container {
 	position:fixed;
 	background-color:#FFF;
 	width: 100%;
 	height: 100%;
 	z-index: 999;
 }
-.exertio-loader {
+.Buckapi-loader {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -183,7 +183,7 @@ ul{
   background: #fff;
   z-index:999;
 }
-.exertio-loader .exertio-dot {
+.Buckapi-loader .Buckapi-dot {
   position: absolute;
   width: 14px;
   height: 14px;
@@ -191,15 +191,15 @@ ul{
   background: #fe696a;
   border-radius: 50%;
   transform: translateX(0);
-  animation: exertio-dot 2.8s infinite;
+  animation: Buckapi-dot 2.8s infinite;
 }
-.exertio-loader .exertio-dots {
+.Buckapi-loader .Buckapi-dots {
   transform: translateX(0);
   margin-top: 12px;
   margin-left: 31px;
-  animation: exertio-dots 2.8s infinite;
+  animation: Buckapi-dots 2.8s infinite;
 }
-.exertio-loader .exertio-dots span {
+.Buckapi-loader .Buckapi-dots span {
   display: block;
   float: left;
   width: 14px;
@@ -208,37 +208,37 @@ ul{
   background: #fe696a;
   border-radius: 50%;
 }
-@-moz-keyframes exertio-dot {
+@-moz-keyframes Buckapi-dot {
   50% {
     transform: translateX(96px);
   }
 }
-@-webkit-keyframes exertio-dot {
+@-webkit-keyframes Buckapi-dot {
   50% {
     transform: translateX(96px);
   }
 }
-@-o-keyframes exertio-dot {
+@-o-keyframes Buckapi-dot {
   50% {
     transform: translateX(96px);
   }
 }
-@keyframes exertio-dot {
+@keyframes Buckapi-dot {
   50% {
     transform: translateX(96px);
   }
 }
-@-moz-keyframes exertio-dots {
+@-moz-keyframes Buckapi-dots {
   50% {
     transform: translateX(-31px);
   }
 }
-@-webkit-keyframes exertio-dots {
+@-webkit-keyframes Buckapi-dots {
   50% {
     transform: translateX(-31px);
   }
 }
-@-o-keyframes exertio-dots {
+@-o-keyframes Buckapi-dots {
   50% {
     transform: translateX(-31px);
   }
@@ -8971,40 +8971,40 @@ color: #777;
 }
 
 /*BLOG CSS*/
-.exertio-comms-list .post.pingback {
+.Buckapi-comms-list .post.pingback {
 	margin-top:20px;
 } 
-.exertio-comms {
+.Buckapi-comms {
     padding: 25px 0;
 	border-bottom: 1px dashed #BBB;
 }
-.exertio-comms .comment-user {
+.Buckapi-comms .comment-user {
     display: flex;
     align-items: center;
 }
 
-.exertio-comms .comment-user .comm-avatar img {
+.Buckapi-comms .comment-user .comm-avatar img {
     width: 35px;
     height: 35px;
 	border-radius: 50%;
 	margin-right:10px;
 }
-.exertio-comms .comment-user .user-details {
+.Buckapi-comms .comment-user .user-details {
     color: #777;
 }
-.exertio-comms .comment-user .username {
+.Buckapi-comms .comment-user .username {
     text-decoration: underline;
     color: #fe696a;
 	margin-right:5px;
 }
-.exertio-comms .comment-user .username a {
+.Buckapi-comms .comment-user .username a {
 	color:#fe696a;	
 }
 .post-desc a, .wp-caption-text a {
     text-decoration: none;
     /*color: #fe696a;*/
 }
-.exertio-comms .comment-text {
+.Buckapi-comms .comment-text {
     padding: 10px 0 0;
 }
 
@@ -10164,12 +10164,12 @@ iframe {
 .service-side .range-slider .irs--round .irs-from, .service-side .range-slider .irs--round .irs-to, .service-side .range-slider .irs--round .irs-single {
     background-color: #fe696a;
 }
-.exertio-services-box {
+.Buckapi-services-box {
 	position:relative;
 	display:flex;
 	flex-direction:column;	
 }
-.exertio-service-list {
+.Buckapi-service-list {
 	background-color:#FFF;
 	box-shadow:1px 0px 20px rgba(0,0,0,0.07);
 	border-radius:4px;
@@ -10177,12 +10177,12 @@ iframe {
 	overflow:hidden;
 	margin-bottom:30px;	
 }
-.exertio-service-list .featured-image {
+.Buckapi-service-list .featured-image {
 	position:relative;
 	overflow:hidden;
 	height:165px;
 }
-.exertio-service-list .featured-image::before {
+.Buckapi-service-list .featured-image::before {
     content: "";
     top: 0;
     bottom: 0;
@@ -10192,66 +10192,66 @@ iframe {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
 	z-index:1;
 }
-.exertio-service-list .featured-image  img {
+.Buckapi-service-list .featured-image  img {
 	position: absolute;
 	height: 100%;
 	-o-object-fit: contain;
 	object-fit: contain;
 	width: 100%;	
 }
-.exertio-service-list .features-star  {
+.Buckapi-service-list .features-star  {
 	z-index: 9;
 }
-.exertio-service-list .features-star i {
+.Buckapi-service-list .features-star i {
 	left: 6px;
 	z-index: 99;
 }
-.exertio-service-list .exertio-service-desc {
+.Buckapi-service-list .Buckapi-service-desc {
 	padding:15px;
 }
-.exertio-service-list .exertio-service-title {
+.Buckapi-service-list .Buckapi-service-title {
 	position:relative;
 	overflow:hidden;
 }
-.exertio-service-list .exertio-service-title a {
+.Buckapi-service-list .Buckapi-service-title a {
 	font-size:18px;
 	color:#242424;
 	font-weight:500;	
 }
-.exertio-service-list .exertio-service-title a:hover {
+.Buckapi-service-list .Buckapi-service-title a:hover {
 	color:#fe696a;	
 }
-.exertio-service-list .exertio-service-desc span.desc-meta {
+.Buckapi-service-list .Buckapi-service-desc span.desc-meta {
 	font-size:14px;	
 }
-.exertio-service-list .exertio-service-desc span.desc-meta a {
+.Buckapi-service-list .Buckapi-service-desc span.desc-meta a {
 	color: #777;
 }
-.exertio-services-bottom {
+.Buckapi-services-bottom {
 	position:relative;
 	overflow:hidden;
 	border-top:1px solid #ebebeb;
 	padding:15px;	
 }
-.exertio-services-bottom ul li {
+.Buckapi-services-bottom ul li {
 	display:inline-block;	
 }
-.exertio-services-bottom ul li.orders {
+.Buckapi-services-bottom ul li.orders {
 	font-size:12px;	
 	color: #777;
 	float:right;
 }
-.exertio-services-box .exertio-service-desc span.rating {
+.Buckapi-services-box .Buckapi-service-desc span.rating {
     font-size: 12px;
     color: #777;
 	margin-bottom: 5px;
     display: block;
 }
-.exertio-services-box .exertio-service-desc span.rating i {
+.Buckapi-services-box .Buckapi-service-desc span.rating i {
     color: #fe696a;
     margin-right: 10px;
 }
-.exertio-services-box .fr-top-rating {
+.Buckapi-services-box .fr-top-rating {
 	right: 15px;
 	left: auto;
 	top: auto;
@@ -10259,10 +10259,10 @@ iframe {
 	z-index: 9;
 	border: 1px solid #ebebeb;
 }
-.exertio-services-box .fr-top-rating a.active {
+.Buckapi-services-box .fr-top-rating a.active {
 	border:none;	
 }
-.exertio-services-box .exertio-services-bottom .style-6 {
+.Buckapi-services-box .Buckapi-services-bottom .style-6 {
     background-color: transparent;
     color: #fe696a;
     border: none;
@@ -10271,7 +10271,7 @@ iframe {
     padding: 0;
     margin-left: 10px;
 }
-.exertio-services-list-2 {
+.Buckapi-services-list-2 {
 	background-color:#FFF;
 	padding:20px;
 	position:relative;
@@ -10282,77 +10282,77 @@ iframe {
 	display:flex;
 	box-shadow:1px 0px 20px rgba(0,0,0,0.07);
 }
-.exertio-services-list-2 .exertio-services-user-pic {
+.Buckapi-services-list-2 .Buckapi-services-user-pic {
 	display:flex;
 	flex-direction:row;		
 }
-.exertio-services-2-meta {
+.Buckapi-services-2-meta {
 	position:relative;
 	display:flex;
 	width: 100%;	
 }
-.exertio-services-2-meta ul {
+.Buckapi-services-2-meta ul {
 	display:flex;
 	flex-direction:row;	
 	width: 100%;
 	justify-content: space-between;
 }
-.exertio-services-2-meta ul li {
+.Buckapi-services-2-meta ul li {
 	position:relative;
 }
-.exertio-services-2-meta ul li span.style-6 {
+.Buckapi-services-2-meta ul li span.style-6 {
 	display:block;
 	color:#fe696a;
 	font-size:24px;
 	font-weight:500;
 	line-height:1.5;
 }
-.exertio-services-2-meta ul li:nth-child(2)
+.Buckapi-services-2-meta ul li:nth-child(2)
 {
 	font-size:14px;
 	color:#777;
 	text-align:right;
 }
-.exertio-services-list-2 .exertio-services-2-meta div.rating {
+.Buckapi-services-list-2 .Buckapi-services-2-meta div.rating {
 	font-size:14px;
 	color:#777;	
 }
-.exertio-services-list-2 .exertio-services-2-meta div.rating i {
+.Buckapi-services-list-2 .Buckapi-services-2-meta div.rating i {
     color: #fe696a;
     font-size: 12px;
     margin-right: 5px;
 }
-.exertio-services-list-2 .exertio-services-2-meta .btn {
+.Buckapi-services-list-2 .Buckapi-services-2-meta .btn {
 	font-size:14px;
 	padding:10px 20px;	
 }
-.exertio-services-list-2 .exertio-services-2-meta ul li:nth-child(3) p {
+.Buckapi-services-list-2 .Buckapi-services-2-meta ul li:nth-child(3) p {
 	margin-top:10px;
 	font-size:12px;	
 }
-.exertio-services-list-2 .exertio-services-2-meta h3 {
+.Buckapi-services-list-2 .Buckapi-services-2-meta h3 {
 	font-size:18px;
 	margin-bottom:0;	
 }
-.exertio-services-list-2 .exertio-services-2-meta h3 a {
+.Buckapi-services-list-2 .Buckapi-services-2-meta h3 a {
 	color:#242424;	
 }
-.exertio-services-list-2 .exertio-services-2-meta p {
+.Buckapi-services-list-2 .Buckapi-services-2-meta p {
 	font-size:14px;	
 }
 
-.exertio-services-list-2 .exertio-services-2-meta p a {
+.Buckapi-services-list-2 .Buckapi-services-2-meta p a {
 	margin-right:20px;	
 }
-.exertio-services-list-2 .exertio-services-2-meta p a.author {
+.Buckapi-services-list-2 .Buckapi-services-2-meta p a.author {
 	text-transform:capitalize;
 	color:	#fe696a;
 }
-.exertio-services-list-2 .exertio-services-2-meta p a i {
+.Buckapi-services-list-2 .Buckapi-services-2-meta p a i {
 	color:#aaa;	
 	margin-right:5px;
 }
-.exertio-services-list-2 .exertio-services-2-meta p a i.fa-check {
+.Buckapi-services-list-2 .Buckapi-services-2-meta p a i.fa-check {
 	background-color: #DDD;
 	color: #fff;
 	padding: 3px;
@@ -10361,7 +10361,7 @@ iframe {
 	font-size: 9px;
 	vertical-align: middle;
 }
-.exertio-services-list-2 .exertio-services-2-meta p a i.verified {
+.Buckapi-services-list-2 .Buckapi-services-2-meta p a i.verified {
 	background-color:#559250;	
 }
 /*PROJECT SIDEBAR*/
@@ -12570,42 +12570,42 @@ font-weight: 400;
 }
 
 /*WOOCOMMERCE CSS*/
-.exertio-woo-notifications.woocommerce-error {
+.Buckapi-woo-notifications.woocommerce-error {
     margin-top: 50px;
 margin-bottom: 0;
 }
-.exertio-cart .woocommerce-cart-form__cart-item .main-product-name h3 , .exertio-cart .woocommerce-cart-form__cart-item .main-product-name h3 a{
+.Buckapi-cart .woocommerce-cart-form__cart-item .main-product-name h3 , .Buckapi-cart .woocommerce-cart-form__cart-item .main-product-name h3 a{
     margin-bottom: 10px;
     color: #20292f;
 }
 
-.exertio-cart .woocommerce-cart-form .form-control {
+.Buckapi-cart .woocommerce-cart-form .form-control {
 
     height: 49.6px;
 }
-.exertio-cart .woocommerce-cart-form .btn-outline-secondary {
+.Buckapi-cart .woocommerce-cart-form .btn-outline-secondary {
 	padding: 12px 30px;
 	border-radius: 4px;
 }
 
-.woocommerce .exertio-cart .cart-collaterals .cart_totals, .woocommerce-page .exertio-cart .cart-collaterals .cart_totals {
+.woocommerce .Buckapi-cart .cart-collaterals .cart_totals, .woocommerce-page .Buckapi-cart .cart-collaterals .cart_totals {
     float: none;
     width: 100%;
     padding: 20px;
 }
-.woocommerce .exertio-cart .woocommerce-cart-form__cart-item .product-thumbnail  img{
+.woocommerce .Buckapi-cart .woocommerce-cart-form__cart-item .product-thumbnail  img{
     width: 90px;
 }
 
-.woocommerce .exertio-cart  ul#shipping_method .amount {
+.woocommerce .Buckapi-cart  ul#shipping_method .amount {
     float: right;
     font-weight: normal;
 }
-.woocommerce .exertio-cart .shipping-calculator-button {
+.woocommerce .Buckapi-cart .shipping-calculator-button {
     font-size: 16px;
 }
 
-.woocommerce .exertio-checkout form .form-row label {
+.woocommerce .Buckapi-checkout form .form-row label {
     display: block;
     margin-bottom: 5px;
     color: #20292f;
@@ -12615,33 +12615,33 @@ margin-bottom: 0;
 	font-size: 16px;
 }
 
-.woocommerce .exertio-checkout form .form-row .woocommerce-input-wrapper {
+.woocommerce .Buckapi-checkout form .form-row .woocommerce-input-wrapper {
     display: block;
     width: 100%;
 }
 
-.woocommerce .exertio-checkout form .form-row {
+.woocommerce .Buckapi-checkout form .form-row {
     padding: 0;
     margin: 0 0 20px;
 }
 
-.woocommerce .exertio-checkout .blog-sidebar  {
+.woocommerce .Buckapi-checkout .blog-sidebar  {
     padding-left:  25px;
     top: 0;
 }
-.woocommerce .exertio-checkout .entry-left::before {
+.woocommerce .Buckapi-checkout .entry-left::before {
     background: #fff;
    
 }
 
-.woocommerce .exertio-checkout ul#shipping_method .amount {
+.woocommerce .Buckapi-checkout ul#shipping_method .amount {
     float: right;
 }
-.woocommerce .exertio-checkout .woocommerce-cart #payment, .woocommerce .exertio-checkout .woocommerce-checkout #payment, .woocommerce .exertio-checkout #add_payment_method #payment {
+.woocommerce .Buckapi-checkout .woocommerce-cart #payment, .woocommerce .Buckapi-checkout .woocommerce-checkout #payment, .woocommerce .Buckapi-checkout #add_payment_method #payment {
     background: #edeff8;
     border-radius: 0;
 }
-.woocommerce .exertio-checkout table.shop_table {
+.woocommerce .Buckapi-checkout table.shop_table {
 
     margin: 20px -1px 24px 0;
 
@@ -12651,31 +12651,31 @@ margin-bottom: 0;
     padding: 13.61px 25px;
 }
 
-.woocommerce .exertio-checkout .woocommerce-billing-fields h3 {
+.woocommerce .Buckapi-checkout .woocommerce-billing-fields h3 {
     display:none;
 }
 
-.woocommerce .exertio-checkout .woocommerce-shipping-fields h3{
+.woocommerce .Buckapi-checkout .woocommerce-shipping-fields h3{
     margin-top: 30px;
 }
 
-.woocommerce .exertio-checkout form .form-row .woocommerce-input-wrapper textarea{
+.woocommerce .Buckapi-checkout form .form-row .woocommerce-input-wrapper textarea{
     height:200px;
 }
 
-.woocommerce .exertio-checkout .select2-container .select2-selection--single .select2-selection__clear {
+.woocommerce .Buckapi-checkout .select2-container .select2-selection--single .select2-selection__clear {
     margin-right: 10px;
 }
-.woocommerce .exertio-checkout .woocommerce-terms-and-conditions-wrapper {
+.woocommerce .Buckapi-checkout .woocommerce-terms-and-conditions-wrapper {
     margin-bottom: 15px;
 }
-.woocommerce .exertio-thanksyou {
+.woocommerce .Buckapi-thanksyou {
     background: #f7f8fc;
 }
-.woocommerce .exertio-thanksyou p {
+.woocommerce .Buckapi-thanksyou p {
 	margin-bottom: 30px;
 }
-.woocommerce .exertio-thanksyou .dashboard-statistic-block {
+.woocommerce .Buckapi-thanksyou .dashboard-statistic-block {
     background: #fff;
     padding: 15px;
     border-radius: 4px;
@@ -12684,7 +12684,7 @@ margin-bottom: 0;
     box-shadow: 0 3px 15px rgba(0,0,0,.05);
 	margin-bottom: 30px;
 }
-.woocommerce .exertio-thanksyou .dashboard-statistic-block .icon {
+.woocommerce .Buckapi-thanksyou .dashboard-statistic-block .icon {
     width: 3rem;
     height: 3rem;
     max-width: 100%;
@@ -12697,42 +12697,42 @@ margin-bottom: 0;
     align-items: center;
     justify-content: center;
 }
-.woocommerce .exertio-thanksyou  .gradient-1 {
+.woocommerce .Buckapi-thanksyou  .gradient-1 {
     background: #3398fb;
     background: -moz-linear-gradient(left, #3398fb 0%, #8553ee 100%);
     background: -webkit-linear-gradient(left, #3398fb 0%, #8553ee 100%);
     background: linear-gradient(to right, #3398fb 0%, #8553ee 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3398fb', endColorstr='#8553ee', GradientType=1);
 }
-.woocommerce .exertio-thanksyou  .icon i, .woocommerce .exertio-thanksyou  .icon svg {
+.woocommerce .Buckapi-thanksyou  .icon i, .woocommerce .Buckapi-thanksyou  .icon svg {
     font-size: 20px;
     color: #fff;
 }
-.woocommerce .exertio-thanksyou  .dashboard-statistic-block h5 {
+.woocommerce .Buckapi-thanksyou  .dashboard-statistic-block h5 {
     color: #a1a8c3;
     margin: 0;
     font-weight: normal;
     font-size: 14px;
 	text-transform:uppercase;
 }
-.woocommerce .exertio-thanksyou  .dashboard-statistic-block h2 {
+.woocommerce .Buckapi-thanksyou  .dashboard-statistic-block h2 {
     margin: 0px;
     font-size: 14px;
 	line-height: 30px;
 	word-wrap: anywhere;
 }
 
-.woocommerce .exertio-thanksyou .gradient-9 {
+.woocommerce .Buckapi-thanksyou .gradient-9 {
     background: linear-gradient(87deg, #f5365c 0, #f56036 100%);
 }
-.woocommerce .exertio-thanksyou .gradient-4 {
+.woocommerce .Buckapi-thanksyou .gradient-4 {
     background: #23bdb8;
     background: -moz-linear-gradient(-45deg, #23bdb8 0%, #43e794 100%);
     background: -webkit-linear-gradient(-45deg, #23bdb8 0%, #43e794 100%);
     background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#23bdb8', endColorstr='#43e794', GradientType=1);
 }
-.woocommerce .exertio-thanksyou .gradient-5 {
+.woocommerce .Buckapi-thanksyou .gradient-5 {
     background: #9a56ff;
     background: -moz-linear-gradient(-45deg, #9a56ff 0%, #e36cd9 100%);
     background: -webkit-linear-gradient(-45deg, #9a56ff 0%, #e36cd9 100%);
@@ -12740,14 +12740,14 @@ margin-bottom: 0;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9a56ff', endColorstr='#e36cd9', GradientType=1);
 }
 
-.woocommerce .exertio-thanksyou .woocommerce-order-details__title , .woocommerce .exertio-thanksyou .woocommerce-order-downloads__title{
+.woocommerce .Buckapi-thanksyou .woocommerce-order-details__title , .woocommerce .Buckapi-thanksyou .woocommerce-order-downloads__title{
     margin-bottom: 30px;
 	margin-top:0;
 }
-.woocommerce .exertio-thanksyou .woocommerce-order-details {
+.woocommerce .Buckapi-thanksyou .woocommerce-order-details {
     margin-bottom: 0;
 }
-.woocommerce .exertio-thanksyou table.shop_table th {
+.woocommerce .Buckapi-thanksyou table.shop_table th {
 
     color: #20292f;
 }
@@ -12757,7 +12757,7 @@ margin-bottom: 0;
 .woocommerce .woocommerce-breadcrumb {
     display:none;
 }
-.woocommerce  .exertio-shop ul.products li.product .onsale {
+.woocommerce  .Buckapi-shop ul.products li.product .onsale {
     font-size: 12px;
     line-height: 16px;
     position: absolute;
@@ -12774,7 +12774,7 @@ margin-bottom: 0;
     margin: auto;
     left: auto;
 }
-.woocommerce .exertio-shop-detail span.onsale {
+.woocommerce .Buckapi-shop-detail span.onsale {
     font-size: 12px;
     line-height: 16px;
     position: absolute;
@@ -12793,17 +12793,17 @@ margin-bottom: 0;
 }
 
 
-.woocommerce  .exertio-shop ul.products li.product .woocommerce-loop-category__title, .woocommerce  .exertio-shop ul.products li.product .woocommerce-loop-product__title,.woocommerce  .exertio-shop ul.products li.product h3 ,  .woocommerce  .exertio-shop-detail ul.products li.product .woocommerce-loop-category__title, .woocommerce  .exertio-shop-detail ul.products li.product .woocommerce-loop-product__title,.woocommerce  .exertio-shop-detail ul.products li.product h3{
+.woocommerce  .Buckapi-shop ul.products li.product .woocommerce-loop-category__title, .woocommerce  .Buckapi-shop ul.products li.product .woocommerce-loop-product__title,.woocommerce  .Buckapi-shop ul.products li.product h3 ,  .woocommerce  .Buckapi-shop-detail ul.products li.product .woocommerce-loop-category__title, .woocommerce  .Buckapi-shop-detail ul.products li.product .woocommerce-loop-product__title,.woocommerce  .Buckapi-shop-detail ul.products li.product h3{
     padding: inherit;
     margin-bottom: 5px;
     font-size: 20px;
 }
 
 
-.woocommerce .exertio-shop ul.products li.product .price del , .woocommerce .exertio-shop-detail ul.products li.product .price del         , .woocommerce .exertio-shop-detail div.product p.price, .woocommerce .exertio-shop-detail div.product p.price del, .woocommerce .exertio-shop-detail div.product span.price del {
+.woocommerce .Buckapi-shop ul.products li.product .price del , .woocommerce .Buckapi-shop-detail ul.products li.product .price del         , .woocommerce .Buckapi-shop-detail div.product p.price, .woocommerce .Buckapi-shop-detail div.product p.price del, .woocommerce .Buckapi-shop-detail div.product span.price del {
  color:tomato;
 }
-.woocommerce .exertio-shop  ul.products li.product .price , .woocommerce .exertio-shop-detail  ul.products li.product .price{
+.woocommerce .Buckapi-shop  ul.products li.product .price , .woocommerce .Buckapi-shop-detail  ul.products li.product .price{
     color: #000;
     display: block;
     font-weight: 400;
@@ -12811,7 +12811,7 @@ margin-bottom: 0;
     font-size: 16px;
 }
 
-.woocommerce .exertio-shop-detail  div.product p.price, .woocommerce .exertio-shop-detail  div.product span.price{
+.woocommerce .Buckapi-shop-detail  div.product p.price, .woocommerce .Buckapi-shop-detail  div.product span.price{
 
     display: block;
     font-weight: 700;
@@ -12819,7 +12819,7 @@ margin-bottom: 0;
     font-size: 19px;
 }
 
-.woocommerce .exertio-shop ul.products li.product .price ins , .woocommerce .exertio-shop-detail ul.products li.product .price ins{
+.woocommerce .Buckapi-shop ul.products li.product .price ins , .woocommerce .Buckapi-shop-detail ul.products li.product .price ins{
     background: 0 0;
     font-weight: 700;
     display: inline-block;
@@ -12830,10 +12830,10 @@ margin-bottom: 0;
      font-weight: normal;
     text-transform: capitalize;
 }
-.woocommerce .exertio-shop nav.woocommerce-pagination  {
+.woocommerce .Buckapi-shop nav.woocommerce-pagination  {
 	float:right;	
 }
-.woocommerce .exertio-shop nav.woocommerce-pagination ul li {
+.woocommerce .Buckapi-shop nav.woocommerce-pagination ul li {
 	position: relative;
 	display: block;
 	margin-left: -1px;
@@ -12845,7 +12845,7 @@ margin-bottom: 0;
 	margin-right:10px;
 	border-radius:4px;
 }
-.woocommerce .exertio-shop nav.woocommerce-pagination ul {
+.woocommerce .Buckapi-shop nav.woocommerce-pagination ul {
     display: -ms-flexbox;
 	display: flex;
 	padding-left: 0;
@@ -12854,19 +12854,19 @@ margin-bottom: 0;
 	justify-content: flex-start !important;
 	border: none;
 }
-.woocommerce .exertio-shop nav.woocommerce-pagination ul li a:focus, .woocommerce .exertio-shop nav.woocommerce-pagination ul li a:hover, .woocommerce .exertio-shop nav.woocommerce-pagination ul li span.current {
+.woocommerce .Buckapi-shop nav.woocommerce-pagination ul li a:focus, .woocommerce .Buckapi-shop nav.woocommerce-pagination ul li a:hover, .woocommerce .Buckapi-shop nav.woocommerce-pagination ul li span.current {
     color: #fff;
 	background-color:#fe696a;
     
 }
-.woocommerce .exertio-shop nav.woocommerce-pagination ul li a, .woocommerce .exertio-shop nav.woocommerce-pagination ul li span {
+.woocommerce .Buckapi-shop nav.woocommerce-pagination ul li a, .woocommerce .Buckapi-shop nav.woocommerce-pagination ul li span {
     padding: 12px 15px;
 	color:#242424;
 	border-radius:4px;
    
 }
 
-.woocommerce .exertio-shop .select2-container .select2-selection--single {
+.woocommerce .Buckapi-shop .select2-container .select2-selection--single {
    
     width: 230px;
 }
@@ -12875,85 +12875,85 @@ margin-bottom: 0;
  margin-top: 10px;    
 }
 
-.woocommerce .exertio-shop-detail div.product .woocommerce-tabs .panel h2{
+.woocommerce .Buckapi-shop-detail div.product .woocommerce-tabs .panel h2{
     margin-bottom: 20px;
     font-size: 23px;
     text-transform: capitalize;
 }
-.woocommerce .exertio-shop-detail .related.products h2 {
+.woocommerce .Buckapi-shop-detail .related.products h2 {
     margin-bottom: 30px;
     font-size: 23px;
     text-transform: capitalize;
 }
-.woocommerce .exertio-shop-detail div.product .product_title {
+.woocommerce .Buckapi-shop-detail div.product .product_title {
     font-size: 26px;
     margin-bottom: 10px;
 }
 
-.woocommerce .exertio-shop-detail div.product .woocommerce-product-rating {
+.woocommerce .Buckapi-shop-detail div.product .woocommerce-product-rating {
     margin-bottom: 5px;
     color: orange;
 }
-.woocommerce .exertio-shop-detail div.product p.price ins, .woocommerce  .exertio-shop-detail div.product span.price ins {
+.woocommerce .Buckapi-shop-detail div.product p.price ins, .woocommerce  .Buckapi-shop-detail div.product span.price ins {
     background: #007acc;
 }
-.woocommerce .exertio-shop-detail div.product .woocommerce-product-details__short-description p {
+.woocommerce .Buckapi-shop-detail div.product .woocommerce-product-details__short-description p {
     margin-top: 10px;
 }
-.woocommerce .exertio-shop-detail div.product form.cart {
+.woocommerce .Buckapi-shop-detail div.product form.cart {
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-.woocommerce .exertio-shop-detail .quantity .qty {
+.woocommerce .Buckapi-shop-detail .quantity .qty {
     height: 42px;
 }
 
-.woocommerce .exertio-shop-detail div.product .woocommerce-tabs ul.tabs {
+.woocommerce .Buckapi-shop-detail div.product .woocommerce-tabs ul.tabs {
 
     padding-left: 0;
 }
-.woocommerce .exertio-shop-detail div.product .woocommerce-tabs ul.tabs li {
+.woocommerce .Buckapi-shop-detail div.product .woocommerce-tabs ul.tabs li {
     border-radius: 0;
 margin: auto;
 }
 
-.woocommerce .exertio-shop-detail div.product .product_meta span:not(.sku){
+.woocommerce .Buckapi-shop-detail div.product .product_meta span:not(.sku){
     display: block;
     font-weight: 700;
 color: #20292f
 }
-.woocommerce .exertio-shop-detail div.product .product_meta span a {
+.woocommerce .Buckapi-shop-detail div.product .product_meta span a {
      font-weight: normal;
 }
 
-.woocommerce .exertio-shop-detail div.product p.stock {
+.woocommerce .Buckapi-shop-detail div.product p.stock {
     font-size: inherit;
     padding-top: 5px;
     font-weight: 700;
     color: green;
 }
-.woocommerce .exertio-shop-detail div.product p.stock.out-of-stock {
+.woocommerce .Buckapi-shop-detail div.product p.stock.out-of-stock {
     color:red;
 }
 
-.woocommerce .exertio-shop-detail .comment-form .comment-form-author,  .woocommerce .exertio-shop-detail .comment-form .comment-form-email {
+.woocommerce .Buckapi-shop-detail .comment-form .comment-form-author,  .woocommerce .Buckapi-shop-detail .comment-form .comment-form-email {
     width: calc(50% - 0.5rem);
     float: left;
 }
-.woocommerce .exertio-shop-detail .comment-form .comment-form-email {
+.woocommerce .Buckapi-shop-detail .comment-form .comment-form-email {
     margin-left: 1rem !important;
 }
-.woocommerce .exertio-shop .star-rating span {
+.woocommerce .Buckapi-shop .star-rating span {
     color: orange;
 }
-.woocommerce .exertio-shop  .products .star-rating {
+.woocommerce .Buckapi-shop  .products .star-rating {
     margin: 0 ;
     float: right;
     margin-top: 10px;
 }
 
-.woocommerce .exertio-shop-detail ul.flex-direction-nav {
+.woocommerce .Buckapi-shop-detail ul.flex-direction-nav {
     position: absolute;
     top: 30%;
     z-index: 5;
@@ -12963,19 +12963,19 @@ color: #20292f
     padding: 0px;
     list-style: none;}
 
-.woocommerce .exertio-shop-detail li.flex-nav-prev {float: left;}
-.woocommerce .exertio-shop-detail li.flex-nav-next {float: right;}
-.woocommerce .exertio-shop-detail a.flex-next {visibility:hidden;}
-.woocommerce .exertio-shop-detail a.flex-prev {visibility:hidden;}
+.woocommerce .Buckapi-shop-detail li.flex-nav-prev {float: left;}
+.woocommerce .Buckapi-shop-detail li.flex-nav-next {float: right;}
+.woocommerce .Buckapi-shop-detail a.flex-next {visibility:hidden;}
+.woocommerce .Buckapi-shop-detail a.flex-prev {visibility:hidden;}
 
-.woocommerce .exertio-shop-detail a.flex-next::after {
+.woocommerce .Buckapi-shop-detail a.flex-next::after {
 	visibility:visible;content: '\f054';
 	font-family: 'Font Awesome 5 Free';
 	margin-right: 10px;
 	font-size: 20px;   
 	font-weight: bold;
 }
-.woocommerce .exertio-shop-detail a.flex-prev::before {
+.woocommerce .Buckapi-shop-detail a.flex-prev::before {
     visibility:visible;
     content: '\f053';
 	font-family: 'Font Awesome 5 Free';   
@@ -12983,67 +12983,67 @@ color: #20292f
 	font-size: 20px;
 	font-weight: bold;
 }
-.woocommerce .exertio-shop-detail ul.flex-direction-nav li a {
+.woocommerce .Buckapi-shop-detail ul.flex-direction-nav li a {
 	color: #ccc;
 }
-.woocommerce .exertio-shop-detail ul.flex-direction-nav li a:hover {
+.woocommerce .Buckapi-shop-detail ul.flex-direction-nav li a:hover {
 	text-decoration: none;
 }
 
-.woocommerce .exertio-shop-detail div.product div.images .woocommerce-product-gallery__trigger {
+.woocommerce .Buckapi-shop-detail div.product div.images .woocommerce-product-gallery__trigger {
     top: 30px;
 }
 
-.woocommerce .exertio-shop-detail div.product div.images .flex-control-thumbs {
+.woocommerce .Buckapi-shop-detail div.product div.images .flex-control-thumbs {
     margin: 10px 0;
     padding: 0;
 }
 
-.woocommerce .exertio-shop-detail div.product div.images .flex-control-thumbs li {
+.woocommerce .Buckapi-shop-detail div.product div.images .flex-control-thumbs li {
     width: 19.24%;
     margin-right: 5px;
 }
-.woocommerce .exertio-shop-detail div.product div.images .flex-control-thumbs li img {
+.woocommerce .Buckapi-shop-detail div.product div.images .flex-control-thumbs li img {
     margin-bottom: 5px;
 }
-.woocommerce .exertio-shop-detail div.product div.images .flex-control-thumbs li:nth-child(5n+0) {
+.woocommerce .Buckapi-shop-detail div.product div.images .flex-control-thumbs li:nth-child(5n+0) {
  margin-right: 0;
 }
-.woocommerce .exertio-shop-detail div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
+.woocommerce .Buckapi-shop-detail div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {
     clear:inherit;
 }
-.woocommerce .exertio-shop-detail div.product .woocommerce-product-rating a {
+.woocommerce .Buckapi-shop-detail div.product .woocommerce-product-rating a {
     color: #6d7c90;
 }
-.woocommerce .exertio-shop-detail div.product table.woocommerce-product-attributes:not(.has-background) th {
+.woocommerce .Buckapi-shop-detail div.product table.woocommerce-product-attributes:not(.has-background) th {
     background-color: #f8f8f8;
 }
-.woocommerce .exertio-shop-detail div.product table.woocommerce-product-attributes:not(.has-background) tbody td {
+.woocommerce .Buckapi-shop-detail div.product table.woocommerce-product-attributes:not(.has-background) tbody td {
     background-color: #fdfdfd;
 }
-.woocommerce .exertio-shop-detail #reviews #comments ol.commentlist {
+.woocommerce .Buckapi-shop-detail #reviews #comments ol.commentlist {
 
     padding-left: 0;
 }
-.woocommerce .exertio-shop-detail .star-rating span , .woocommerce .exertio-shop-detail  p.stars a {
+.woocommerce .Buckapi-shop-detail .star-rating span , .woocommerce .Buckapi-shop-detail  p.stars a {
     color: orange;
 }
-.woocommerce .exertio-shop-detail .woocommerce-review__author {
+.woocommerce .Buckapi-shop-detail .woocommerce-review__author {
     font-size: 16px;
 }
 
-.woocommerce .exertio-shop-detail #content div.product div.summary, .woocommerce .exertio-shop-detail div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+.woocommerce .Buckapi-shop-detail #content div.product div.summary, .woocommerce .Buckapi-shop-detail div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
     width: 50%;
 }
 
-.woocommerce .exertio-shop-detail .woocommerce-grouped-product-list-item__label label a{
+.woocommerce .Buckapi-shop-detail .woocommerce-grouped-product-list-item__label label a{
     color: #20292f;
     font-weight: 700;
 }
-.woocommerce .exertio-shop-detail .woocommerce-grouped-product-list-item__label label {
+.woocommerce .Buckapi-shop-detail .woocommerce-grouped-product-list-item__label label {
     margin-bottom:0;
 }
-.woocommerce .exertio-shop-detail div.product form.cart table {
+.woocommerce .Buckapi-shop-detail div.product form.cart table {
     width: 100%;
 }
 .woocommerce div.product form.cart .group_table td {
@@ -13055,7 +13055,7 @@ color: #20292f
 .box-shadow-lg {
     box-shadow: 0 .3rem 1.525rem -.375rem rgba(0,0,0,.1) !important;
 }
-.woocommerce .exertio-shop-detail div.product p.price ins, .woocommerce .exertio-shop-detail div.product span.price ins {
+.woocommerce .Buckapi-shop-detail div.product p.price ins, .woocommerce .Buckapi-shop-detail div.product span.price ins {
     background: #007acc;
 }
 ins, mark {
@@ -13086,7 +13086,7 @@ ins, mark {
     line-height: 1.5em;
 	font-size:14px;
 }
-.exertio-checkout #order_review_heading {
+.Buckapi-checkout #order_review_heading {
 	font-size:18px;
 	margin:0;	
 }
@@ -13139,7 +13139,7 @@ ins, mark {
 	margin-bottom:20px;
 }
 /*PRICING 2 SECTION*/
-.exertio-pricing-2-main {
+.Buckapi-pricing-2-main {
 	position:relative;
 	overflow: hidden;
 	background-color: #FFF;
@@ -13147,110 +13147,110 @@ ins, mark {
 	box-shadow:1px 0px 20px rgba(0,0,0,0.07);
 	margin-bottom:30px;
 }
-.exertio-pricing-2-main .exertio-pricing-price {
+.Buckapi-pricing-2-main .Buckapi-pricing-price {
 	background-color: #fe696a;
 	padding: 30px;
 	color: #FFF;
 	border-radius: 15px;
 }
-.exertio-pricing-2-main .exertio-pricing-price h4 {
+.Buckapi-pricing-2-main .Buckapi-pricing-price h4 {
 	font-size: 20px;
 	color: #FFF;
 	margin-top: 0;
 	margin-bottom: 15px;
 }
-.exertio-pricing-2-main .exertio-pricing-price span {
+.Buckapi-pricing-2-main .Buckapi-pricing-price span {
 	font-size: 40px;
 	color: #FFF;
 	line-height: 50px;
 	font-weight: 700;
 } 
-.exertio-pricing-2-main .exertio-pricing-price span.strike {
+.Buckapi-pricing-2-main .Buckapi-pricing-price span.strike {
 	font-size:20px;
 	font-weight: normal;
 	margin-right: 10px;
 	text-decoration:line-through;
 	vertical-align: middle;
 }
-.exertio-pricing-2-main .exertio-pricing-price p {
+.Buckapi-pricing-2-main .Buckapi-pricing-price p {
 	color: #FFF;
 	font-size: 14px;
 }
-.exertio-pricing-2-main .exertio-price-detail {
+.Buckapi-pricing-2-main .Buckapi-price-detail {
 	padding: 30px;
 }
-.exertio-pricing-2-main .exertio-price-detail ul {
+.Buckapi-pricing-2-main .Buckapi-price-detail ul {
 	position:relative;
 	overflow: hidden;
 	margin-bottom: 30px;
 }
-.exertio-pricing-2-main .exertio-price-detail ul li {
+.Buckapi-pricing-2-main .Buckapi-price-detail ul li {
 	line-height: 40px;
 }
-.exertio-pricing-2-main .exertio-price-detail ul li i {
+.Buckapi-pricing-2-main .Buckapi-price-detail ul li i {
     font-size: 18px;
     color: #289918;
     margin-right: 15px;
 }
-.exertio-pricing-2-main .exertio-price-detail ul li i.fa-times {
+.Buckapi-pricing-2-main .Buckapi-price-detail ul li i.fa-times {
     color: red;
 }
-.exertio-pricing-2-main .exertio-price-detail .btn {
+.Buckapi-pricing-2-main .Buckapi-price-detail .btn {
 	width: 100%;
 }
-.exertio-pricing-2-main.featured {
+.Buckapi-pricing-2-main.featured {
 	margin-left: -1px;
 	margin-right: -1px;
 	transform: translateY(-20px);
 	z-index: 11;
 }
-.exertio-pricing-2-main.black .exertio-pricing-price {
+.Buckapi-pricing-2-main.black .Buckapi-pricing-price {
 	background-color: #000;
 }
-.exertio-pricing-2-main.black .exertio-price-detail .btn  {
+.Buckapi-pricing-2-main.black .Buckapi-price-detail .btn  {
 	background-color: #000;
 	border-color: #000;
 }
-.exertio-pricing-2-main .pricing-badge {
+.Buckapi-pricing-2-main .pricing-badge {
 	background-color: #FFF;
 	color: #242424;
 }
-.exertio-app-one {
+.Buckapi-app-one {
 	position:relative;
 	overflow:hidden;
 }
-.exertio-app-one .exertio-app-box {
+.Buckapi-app-one .Buckapi-app-box {
 	width: 60%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 }
-.exertio-app-one .exertio-app-box h3 {
+.Buckapi-app-one .Buckapi-app-box h3 {
 	margin-bottom:20px;
 	font-size:34px;
 	font-weight:600;
 }
-.exertio-app-one .exertio-app-box p {
+.Buckapi-app-one .Buckapi-app-box p {
 	font-size:18px;
 	line-height:30px;
 }
-.exertio-app-one .exertio-app-box .exertio-app-upper {
+.Buckapi-app-one .Buckapi-app-box .Buckapi-app-upper {
 	text-align:center;
 }
-.exertio-app-one .exertio-app-box .exertio-app-icons {
+.Buckapi-app-one .Buckapi-app-box .Buckapi-app-icons {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	margin-top: 30px;
 }
-.exertio-app-one .exertio-app-box .exertio-app-icons ul {
+.Buckapi-app-one .Buckapi-app-box .Buckapi-app-icons ul {
 	display: flex;
 	justify-content: space-between;
 }
-.exertio-app-one .exertio-app-box .exertio-app-icons ul  li {
+.Buckapi-app-one .Buckapi-app-box .Buckapi-app-icons ul  li {
 	margin:0 10px;
 }
-.exertio-app-one .exertio-app-main-img {
+.Buckapi-app-one .Buckapi-app-main-img {
 	display:flex;
 	justify-content:center;
 }
@@ -13617,7 +13617,7 @@ ins, mark {
 	padding: 80px 0px 80px 0px;
 	background-color: #F5F5F5;
 }
-.exertio-app-one
+.Buckapi-app-one
 {
 	padding: 80px 0px 0px 0px;
 }
@@ -13681,7 +13681,7 @@ ins, mark {
 {
 	padding: 80px 0px 50px 0px;
 }
-.exertio-app-one .exertio-app-box h3
+.Buckapi-app-one .Buckapi-app-box h3
 {
 	font-size: 32px;
 }
@@ -13708,11 +13708,11 @@ ins, mark {
 {
 	width: 100%;
 }
-.exertio-advertising-img
+.Buckapi-advertising-img
 {
 	margin-top: 30px;
 }
-.exertio-advertising-img img
+.Buckapi-advertising-img img
 {
 	width: 100%;
 }
@@ -14154,13 +14154,13 @@ h3
 	.herosection-2 .fr-hero3-submit, .herosection-2 .fr-hero3-submit button {
 		width:100%;
 	}
-	.exertio-app-one .exertio-app-box h3 {
+	.Buckapi-app-one .Buckapi-app-box h3 {
 		font-size:24px;
 	}
-	.exertio-app-one .exertio-app-box p {
+	.Buckapi-app-one .Buckapi-app-box p {
 		font-size: 16px;
 	}
-	.exertio-app-one .exertio-app-box {
+	.Buckapi-app-one .Buckapi-app-box {
 		width:100%;
 	}
 	.agent-1 .card-image img, .agent-1 .card-image a, .fr-latest-content img {
@@ -14277,7 +14277,7 @@ h3
 		position: relative;
 		box-shadow:0px 0px 10px rgba(0,0,0,0.08);
 	}
-	#exertio-carousal .carousel-inner {
+	#Buckapi-carousal .carousel-inner {
 		display:none;
 	}
 	.fr-expert .fr-expert-content {
@@ -16194,7 +16194,7 @@ font-size: 12px;
 	.herosection-2 .fr-hero3-srch .select2-container--default .select2-selection--single .select2-selection__arrow {
 		right: 32%;
 	}
-	.exertio-app-one .exertio-app-box {
+	.Buckapi-app-one .Buckapi-app-box {
 		width: 90%;
 	}
 	.fr-c-about-products {
@@ -16206,7 +16206,7 @@ font-size: 12px;
 	.call-actionz p {
 		font-size: 18px;
 	}
-	.exertio-pricing-2-main .exertio-pricing-price h4 {
+	.Buckapi-pricing-2-main .Buckapi-pricing-price h4 {
 		font-size: 18px;
 	}
 	.fr-about-conrent .fr-product-checks ul li {
@@ -17458,7 +17458,7 @@ font-size: 12px;
 	margin-top: 0;
 	padding:50px 0;
 }
-#exertio-carousal .carousel-inner {
+#Buckapi-carousal .carousel-inner {
 	display:none;
 }
 .hero-slider .fr-hero3-content h1 {
@@ -17746,7 +17746,7 @@ font-size: 12px;
 	.agent-1 .card-image img, .agent-1 .card-image a, .fr-latest-content img {
 		width: 100%;
 	}
-	.exertio-app-one .exertio-app-box {
+	.Buckapi-app-one .Buckapi-app-box {
 		width: 80%;
 	}
 	.agent-1 .card-title {
@@ -20403,7 +20403,7 @@ font-size: 14px;
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
-	#exertio-carousal .carousel-inner {
+	#Buckapi-carousal .carousel-inner {
 		display: none;
 	}
 	.hero-slider {
@@ -20470,10 +20470,10 @@ font-size: 14px;
 	.agent-1 .card-image img, .agent-1 .card-image img a {
 		width: 100%;
 	}
-	.exertio-app-one .exertio-app-box {
+	.Buckapi-app-one .Buckapi-app-box {
 		width:100%;
 	}
-	.exertio-app-one .exertio-app-box h3 {
+	.Buckapi-app-one .Buckapi-app-box h3 {
 		font-size:30px;
 	}
 	.fr-footer .fr-footer-content {
@@ -20542,17 +20542,17 @@ font-size: 14px;
 	.fr-hero2-video {
 		display:none;
 	}
-	.exertio-pricing-2-main .exertio-pricing-price h4 {
+	.Buckapi-pricing-2-main .Buckapi-pricing-price h4 {
 		font-size:20px;
 		margin-bottom:0;
 	}
-	.exertio-pricing-2-main .exertio-price-detail ul li {
+	.Buckapi-pricing-2-main .Buckapi-price-detail ul li {
 		font-size: 14px;
 	}
-	.exertio-pricing-2-main .exertio-pricing-price span {
+	.Buckapi-pricing-2-main .Buckapi-pricing-price span {
 		font-size: 30px;
 	}
-	.exertio-pricing-2-main .exertio-pricing-price {
+	.Buckapi-pricing-2-main .Buckapi-pricing-price {
 		padding: 20px;
 	}
 	.fr-project-f-des .fr-project-attachments .attacment-box .attachments {
