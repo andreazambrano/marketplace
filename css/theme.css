@@ -26,7 +26,7 @@ h3{
 }
 
 h4{
-	font-size: 26px;
+	font-size: 20px;
 	color:#242424;
 }
 
@@ -1089,7 +1089,7 @@ color: #777;
 	border: 1px solid #fff;
 	padding: 8px;
 	background-color: rgba(255, 255, 255, 0.3);
-	border-radius: 4px;
+	border-radius: 18px;
 	color:#FFF;
 	width:40px;
 	height:40px;
@@ -1849,7 +1849,7 @@ color: #777;
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	padding: 100px 0;
+	padding: 130px 0;
 }
 .fr-list-product::before {
 	content: "";
@@ -10880,7 +10880,7 @@ padding: 8px;
 	height: auto;
 	background-position: center center;
 	background-size: cover;
-	padding: 80px 0px 50px 0px;
+	padding: 20px 0px 50px 0px;
 }
 .fr-serv-2 .row {
 	padding: 0 !important;
@@ -13293,8 +13293,8 @@ ins, mark {
 .about-grid-margin .about-grid-img img {
     -webkit-box-shadow: 0 11px 29px 0 rgba(0,0,0,.3);
     box-shadow: 0 11px 29px 0 rgba(0,0,0,.3);
-    border-radius: 3px;
-    width: 100%;
+    border-radius: 100%;
+    width: 95%;
 }
 .about-grid-content h2 {
     margin-bottom: 20px;
@@ -13667,7 +13667,7 @@ ins, mark {
 }
 .fr-explore-cat
 {
-	padding: 80px 0px 80px 0px;
+	padding: 55px 0px 55px 0px;
 }
 .fr-about-future.mrkt-plac
 {
@@ -13737,7 +13737,7 @@ ins, mark {
 }
 .about-us-grids
 {
-	padding: 80px 0px 30px 0px;
+	padding: 100px 0px 30px 0px;
 }
 .about-grid-margin .about-grid-img .about-grid-count
 {
