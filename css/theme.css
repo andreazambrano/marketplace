@@ -768,6 +768,8 @@ background: #259d00;
 	position:relative;
 	z-index:0;
 	height:90px;	
+	    margin-right: 130px;
+	    /*margin-right: 130px; indexado*/ 
 }
 .fr-menu .sb-menu ul li.fr-list.loggedin {
 	display: flex;
@@ -5455,6 +5457,7 @@ color: #777;
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;
+	    background-color: #fff8dc6e;
 }
 .fr-about-conrent .fr-product-checks {
 	position:relative;

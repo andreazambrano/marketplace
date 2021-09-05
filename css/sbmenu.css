@@ -94,7 +94,21 @@ Default settings
 .sb-header .logo img {
 	width: 200px;
 }
+.add-promo {
+	position: absolute;
+	top: 46px;
+	right: 10px;
+	width: 20px;
+	height: 17px;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
 
+	-webkit-transition: transform 330ms ease-out;
+	-moz-transition: transform 330ms ease-out;
+	-o-transition: transform 330ms ease-out;
+	transition: transform 330ms ease-out;
+}
 .burger-menu {
 	position: absolute;
 	top: 46px;
