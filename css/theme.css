@@ -767,8 +767,7 @@ background: #259d00;
 .fr-menu .sb-menu ul li.fr-list {
 	position:relative;
 	z-index:0;
-	height:90px;	
-	    margin-right: 130px;
+	height:90px;
 	    /*margin-right: 130px; indexado*/ 
 }
 .fr-menu .sb-menu ul li.fr-list.loggedin {
