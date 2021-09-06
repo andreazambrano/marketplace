@@ -790,11 +790,11 @@ background: #259d00;
 	overflow: hidden;
 	padding: 10px 30px;
 	transition: .6s;
-	margin-left: 10px;
+	margin-left: 0px;
 	display: inline-block;
 	font-weight: 500;
 	text-transform: uppercase;
-	border-radius:4px;	
+	border-radius:20px;	
 	background-color: #000;
 	border:1px solid #000;
 }
@@ -805,10 +805,11 @@ background: #259d00;
 	overflow: hidden;
 	padding: 10px 30px;
 	transition: .6s;
-	margin-left: 10px;
+	margin-left: 5px;
 	display: inline-block;
 	font-weight:500;
 	text-transform:uppercase;
+	border-radius: 20px;
 }
 
 
